@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.general {
+  width: 315px;
+  /* height: calc(100vh - 293px); */
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .general {
+    width: 580px;
+  }
+}
+
+custom-h1 {
+  color: royalblue;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
